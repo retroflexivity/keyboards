@@ -25,7 +25,7 @@ var keys = {
   // 'Semicolon': ['o', 'O'],
   'Quote': ['ɛ', '"'],
 
-  'KeyZ': ['', 'x̌ʷ'],
+  'KeyZ': ['λˊ', 'Z'],
   'KeyX': ['χ', 'X'],
   'KeyC': ['tˊ', 'C'],
   'KeyV': ['ś', 'V'],
