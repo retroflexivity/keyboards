@@ -1,0 +1,22 @@
+{
+  "name": "Forest Nenets",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Forest Nenets keyboard",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Forest Nenets",
+      "type": "ime",
+      "id": "nenets",
+      "description": "Forest Nenets keyboard",
+      "language": "ne-RU",
+      "layouts": ["us(colemak)"]
+    }
+  ]
+}

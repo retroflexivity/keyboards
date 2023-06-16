@@ -1,0 +1,22 @@
+{
+  "name": "Khanty",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Kazym Khanty keyboard",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Khanty",
+      "type": "ime",
+      "id": "khanty",
+      "description": "Kazym Khanty keyboard",
+      "language": "kc-RU",
+      "layouts": ["us(colemak)"]
+    }
+  ]
+}
