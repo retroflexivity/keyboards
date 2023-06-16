@@ -1,1 +1,1 @@
-a repo with chromeos layouts i create for languages i work on
+a repo with colemak-based chromeos layouts i create for exotic languages i work on
