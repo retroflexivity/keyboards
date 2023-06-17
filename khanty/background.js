@@ -50,7 +50,8 @@ chrome.input.ime.onKeyEvent.addListener(
     function(engineID, keyData) {
       var handled = false;
 
-      if (keyData.type == 'keydown') {
+      if (keyData.type == 'keydown' && 
+          !keyData.ctrlKey && !keyData.altKey && !keyData.altgrKey && !keyData.metaKey) {
         if (keys[keyData.code]) {
           let shifted = keyData.capsLock ^ keyData.shiftKey;
           let emit = keys[keyData.code][shifted];

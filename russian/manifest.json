@@ -1,0 +1,22 @@
+{
+  "name": "Russian",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Russian keyboard with Colemak bindings",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Russian",
+      "type": "ime",
+      "id": "rucol",
+      "description": "Russian keyboard with Colemak bindings",
+      "language": "ru-RU",
+      "layouts": ["us(colemak)"]
+    }
+  ]
+}
