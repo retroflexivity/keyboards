@@ -1,8 +1,8 @@
 {
-  "name": "Russian Colemak",
+  "name": "Polish",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Russian keyboard with Colemak bindings",
+  "description": "Polish Colemak keyboard",
   "background": {
     "service_worker": "background.js"
   },
@@ -11,11 +11,11 @@
   ],
   "input_components": [
     {
-      "name": "Rosyjscolemak",
+      "name": "Polish",
       "type": "ime",
-      "id": "rucol",
-      "description": "Russian keyboard with Colemak bindings",
-      "language": "ru-RU",
+      "id": "plcol",
+      "description": "Polish Colemak keyboard",
+      "language": "pl-PL",
       "layouts": ["us(colemak)"]
     }
   ]

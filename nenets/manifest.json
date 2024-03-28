@@ -11,7 +11,7 @@
   ],
   "input_components": [
     {
-      "name": "Forest Nenets",
+      "name": "Nenets",
       "type": "ime",
       "id": "nenets",
       "description": "Forest Nenets keyboard",
